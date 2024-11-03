@@ -1,8 +1,12 @@
-# React + Vite
+# (TR) TO DO VE NOT UYGULAMASI
+### React ile geliştirdiğim ve animasyonlarla zenginlik kattığım, to do ve not uygulaması
+.
+.
+# (EN) TO DO AND NOTES APP
+### A to-do and note application developed with animations using React.
+.
+.
+# (DE) To-Do- und Notizen-App
+### Eine To-Do- und Notiz-Anwendung, die mit Animationen unter Verwendung von React entwickelt wurde.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## For your feedback and suggestions: yusufsertel460@gmail.com
