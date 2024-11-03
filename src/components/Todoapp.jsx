@@ -68,7 +68,9 @@ Head.propTypes = {
 };
 
 function Todo({ isTodo }) {
-
+ function changeFunc () {
+  
+ }
   return (
     <section>
       <div className="container-fluid mt-5">
@@ -79,7 +81,7 @@ function Todo({ isTodo }) {
                 <a href="#" className="btn d-flex justify-content-center">
                   <i className="bi bi-plus fs-1">+</i>
                 </a>
-                <div className="text-center mt-2" id="button">{isTodo ? "Görev Ekle" : "Not Ekle"}</div>
+                <div className="text-center mt-2" id="button" onClick={changeFunc}>{isTodo ? "Görev Ekle" : "Not Ekle"}</div>
               </div>
             </div>
           </div>
