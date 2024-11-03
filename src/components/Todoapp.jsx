@@ -5,7 +5,7 @@ import 'react-quill/dist/quill.snow.css';
 
 function Head({ handleToggle, isTodo }) {
   return (
-    <div className="container" style={{ position: 'relative' }}>
+    <div className="container-fluid">
       <nav className="navbar fixed-top bg-body-tertiary border border-2 rounded-3">
         <div className="container-fluid">
           <div className="navbar-brand"><strong>To Do</strong></div>
@@ -99,7 +99,7 @@ function Todo({ isTodo }) {
     <section className="d-flex justify-content-center">
       <div className="container-fluid mt-5">
         <div className="row">
-          <div className="col-10 col-md-6 mx-auto mt-5">
+          <div className="col-12 col-md-6 mx-auto mt-5">
             {items.map((item) => (
               <div key={item.id} className="card rounded-4 mb-3">
                 <div className="card-body">
